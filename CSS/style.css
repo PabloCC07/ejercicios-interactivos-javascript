@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+#cabecera {
+    background-color: #3498db;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 10px gray;
+}
+
+#enunciado {
+    margin: 40px auto 25px;
+    padding: 20px;
+    width: 420px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #2c3e50;
+    box-shadow: 0 0 10px gray;
+}
+
+#tablasMultiplicar,
+#dados,
+#adivinarNumero,
+#tareas {
+    margin: 20px auto;
+    width: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#tablasMultiplicar:hover,
+#dados:hover,
+#adivinarNumero:hover,
+#tareas:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 15px gray;
+}
+
+#tablasMultiplicar a,
+#dados a,
+#adivinarNumero a,
+#tareas a {
+    display: block;
+    padding: 22px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablasMultiplicar a:hover,
+#dados a:hover,
+#adivinarNumero a:hover,
+#tareas a:hover {
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+}
